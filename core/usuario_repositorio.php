@@ -16,7 +16,7 @@ switch ($acao) {
         $dados = [
             'nome' => $nome,
             'email' => $email,
-            'senha' => $senha
+            'senha' => crypt($senha, $salt)
         ];
         insere('usuario', $dados);
         break;
