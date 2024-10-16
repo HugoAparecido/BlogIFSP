@@ -54,7 +54,7 @@
                         ' (select nome from usuario where usuario.id = post.usuario_id) as nome'
                     ],
                     $criterio,
-                    'data_postagem'
+                    'data_postagem DESC'
                 );
                 ?>
                 <div>
