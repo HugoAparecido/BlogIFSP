@@ -48,7 +48,7 @@
                     </div>
                     <div class="form-group">
                         <label for="email">E-mail</label>
-                        <input type="text" name="email" id="email" class="form-control" require="required" value="<?php echo $entidade['email'] ?? '' ?>">
+                        <input type="email" name="email" id="email" class="form-control" require="required" value="<?php echo $entidade['email'] ?? '' ?>">
                     </div>
                     <?php if (!isset($_SESSION['login'])) : ?>
                         <div class="form-group">

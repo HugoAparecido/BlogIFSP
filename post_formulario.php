@@ -54,8 +54,7 @@
                     </div>
                     <div class="form-group">
                         <label for="texto">Texto</label>
-                        <textarea type="text" name="texto" id="texto" class="form-control" require="required" rows="5">
-                        <?php echo $entidade['texto'] ?? '' ?></textarea>
+                        <textarea type="text" name="texto" id="texto" class="form-control" require="required" rows="5"><?php echo $entidade['texto'] ?? '' ?></textarea>
                     </div>
                     <div class="form-group"><label for="texto">Postar em</label>
                         <?php
